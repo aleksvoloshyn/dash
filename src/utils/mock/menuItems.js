@@ -1,4 +1,7 @@
-const mainItems = [{ id: 1, title: 'Home' }]
+const mainItems = [
+  { id: 1, title: 'Home' },
+  { id: 2, title: 'Template' },
+]
 
 const appsItems = [
   { id: 1, title: 'Email' },
