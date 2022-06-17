@@ -11,72 +11,14 @@
 
 .todoInput {
   width: 400px;
-}
 
-.toDoList {
-  width: 85%;
-  padding: 0;
-}
-
-.addTodoButton {
-  margin-left: 16px;
-  margin-bottom: 16px;
-  width: 120px;
-  height: 40px;
-  border: none;
-  color: #000;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  background-color: #a1acb8;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.addTodoButton:hover {
-  background: #696cff;
+  input {
+    background-color: #fff;
+  }
 }
 
 .list {
   display: flex;
   justify-content: space-between;
-}
-
-.items {
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  flex-direction: column;
-  justify-content: baseline;
-  align-items: center;
-  outline: 1px solid white;
-  width: 31%;
-  height: fit-content;
-  background-color: #fff;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.inProgressButton {
-  composes: addTodoButton;
-  width: 92px;
-  height: 26px;
-  font-size: 12px;
-}
-
-.doneButton {
-  composes: inProgressButton;
-  //   background-color: salmon;
-  &:hover {
-    background-color: salmon;
-  }
-}
-
-.toDoItem {
-  display: flex;
-  flex-direction: column;
-}
-
-.buttonGroup {
+  margin-bottom: 60px;
 }

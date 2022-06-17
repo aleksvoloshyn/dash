@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@bigheads/core": "^0.3.3",
+    "@devexpress/dx-react-chart": "^3.0.3",
+    "@devexpress/dx-react-chart-material-ui": "^3.0.3",
+    "@devexpress/dx-react-core": "^3.0.3",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.4",
@@ -19,6 +22,8 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.4",
+    "recharts": "^2.1.10",
     "sass": "^1.52.2",
     "shortid": "^2.2.16",
     "styled-components": "^5.3.5",
